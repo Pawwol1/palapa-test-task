@@ -1,0 +1,69 @@
+.signIn {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signIn__logo {
+    width: 62px;
+    padding: 80px 0 24px 0;
+}
+
+.signIn__title {
+    padding-bottom: 32px;
+}
+
+.signIn__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signIn__form-label {
+   padding: 0 63px;
+}
+
+.signIn__form-label input {
+    padding: 9px 0 9px 13px;
+    width: 448px;
+    height: 42px;
+}
+
+.signIn__form-button {
+    background: #4F46E5;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    width: 448px;
+    height: 38px;
+    margin: 24px 0 80px 0;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+.signIn__form-button img {
+    position: absolute;
+    left: 15px
+}
+
+.signIn__form-button:hover {
+    background: #1F41E5;
+}
+
+.signIn__form-button:disabled,
+.signIn__form-button[disabled] {
+    background: #DADADA;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
